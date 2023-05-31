@@ -16,13 +16,13 @@ class Navigation(ttk.Frame):
         self.grid(row=0, column=3, padx=(0, 2), pady=(5, 5), sticky=(tk.W, tk.E))
         self.styletable = self.parent.styletable
 
-        self.builder = builders.NavigationFrameBuilder(self)
-        self.builder.setup()
-        self.builder.create_submix_button()
-        self.builder.create_channel_button()
-        self.builder.create_extend_button()
-        self.builder.create_info_button()
-        self.builder.grid_configure()
+        #self.builder = builders.NavigationFrameBuilder(self)
+        #self.builder.setup()
+        #self.builder.create_submix_button()
+        #self.builder.create_channel_button()
+        #self.builder.create_extend_button()
+        #self.builder.create_info_button()
+        #self.builder.grid_configure()
 
         self.mainframebuilder = builders.MainFrameBuilder(self.parent)
 
